@@ -18,7 +18,7 @@ def ej1():
     # Ejercicios de práctica numérica
     
     # Comparadores
-    # Ingrese dos números cualesquiera y realice la sigueintes
+    # Ingrese dos números cualesquiera y realice las sigueintes
     # comparaciones entre ellos
     print('Ingrese el primer número:')
     numero_1 = int(input())
@@ -44,7 +44,7 @@ def ej2():
     # Ejemplos variables de texto
 
     # Comparadores
-    # Ingrese dos palabras cualesquiera y realice la sigueintes
+    # Ingrese dos palabras cualesquiera y realice las sigueintes
     # comparaciones entre ellas
     print('Ingrese la primera palabra:')
     texto_1 = str(input())
@@ -52,7 +52,7 @@ def ej2():
     print('Ingrese la segunda palabra:')
     texto_2 = str(input())
 
-    # Compare cual de las dos palabras es mayor
+    # Compare cual de las dos palabras es mayor (alfabéticamente)
     # Imprima en pantalla según corresponda
 
     # Compare cual de las dos palabras tiene mayor
@@ -109,21 +109,21 @@ def ej4():
     texto_1 = '5'
     texto_2 = '7'
 
-    # Verifique cual cual de los dos textos es mayor
+    # Verifique cual cual de los dos textos es mayor alfabéticamente
     # Imprima en pantalla según corresponda
 
-    # Transforma esas variables tipo texto y almacenalas
+    # Transforma esas variables tipo texto y almacénalas
     # en nuevas variables númericas (int)
     # Repita el proceso, ¿Cuál de las nuevas variables es mayor?
     # Imprima en pantalla según corresponda
 
     # Para pensar!
     # ¿Por qué cree que texto_2 es mayor a texto_1?
-    # Siendo números tiene sentido, pero son caracteres, texto
+    # Siendo números tiene sentido, pero son caracteres, texto,
     # aún así el operador arroja el mismo resultado que con las
     # variables numéricas, cierto? ¿Por qué creen que es así?
     # Esta pregunta estará repetida en el Campus para que puedan
-    # respondar.
+    # responder.
     # NOTA: La respuesta no se encuentra en el apunte, sino en Google ;)
 
 if __name__ == '__main__':
