@@ -33,14 +33,14 @@ def numbers():
 
     # Realizar la misma operación negando la condición
     if not(x > y):
-        print('"x={}" no es mayor a "y={}"'.format(x, y))  # Debo también negar la respeusta
+        print('"x={}" no es mayor a "y={}"'.format(x, y))  # Debo también negar la respuesta
     else:
-        print('"y={}" no es mayor a "x={}"'.format(y, x))  # Debo también negar la respeusta
+        print('"y={}" no es mayor a "x={}"'.format(y, x))  # Debo también negar la respuesta
 
     # Verificar si "y" es nu número positivo
     if y > 0:
         print('"y" es positivo')
-    elif x < 0:
+    elif y < 0:
         print('"y" es negativo')
     else:
         print('"y" es 0')
@@ -54,7 +54,7 @@ def numbers():
     if y != copia_x:
         print('y es distinto a copia_x')
 
-    # Condicionales compuestas
+    # Condicionales compuestos
     # Calcular el producto entre dos números enteros que sean positivos
     # y menores a 100
     numero_1 = 10
@@ -69,7 +69,7 @@ def numbers():
 
 
     # Calcular la suma de dos números si almenos uno de ellos
-    # es igual o mayor a cero
+    # es mayor o igual a cero
     numero_3 = -20
 
     if (numero_1 >= 0) or (numero_3 >= 0):
@@ -81,7 +81,7 @@ def strings():
     texto_1 = 'a'
     texto_2 = 'b'
 
-    # Verificar que textos son mayores
+    # Verificar que texto es mayores (alfabéticamente)
     if texto_1 > texto_2:
         print('{} es mayor que {}'.format(texto_1, texto_2))
     else:
@@ -98,7 +98,7 @@ def strings():
     if texto_1 == 'ab':
         print("texto_1({}) es igual a ab".format(texto_1))
 
-    # Condicionales compuestas
+    # Condicionales compuestos
     # Si texto_1 es mayor a texto_2 e igual a "hola" o
     # texto_1 tiene menos de 4 letras, entonces imprimir "Correcto!"
 
