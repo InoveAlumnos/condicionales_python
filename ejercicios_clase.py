@@ -20,11 +20,9 @@ def ej1():
     # Comparadores
     # Ingrese dos números cualesquiera y realice las sigueintes
     # comparaciones entre ellos
-    print('Ingrese el primer número:')
-    numero_1 = int(input())
+    numero_1 = int(input('Ingrese el primer número:\n'))
 
-    print('Ingrese el segundo número:')
-    numero_2 = int(input())
+    numero_2 = int(input('Ingrese el segundo número:\n'))
     
     # Compare cual de los dos números es mayor
     # Imprima en pantalla según corresponda
@@ -46,11 +44,9 @@ def ej2():
     # Comparadores
     # Ingrese dos palabras cualesquiera y realice las sigueintes
     # comparaciones entre ellas
-    print('Ingrese la primera palabra:')
-    texto_1 = str(input())
+    texto_1 = str(input('Ingrese la primera palabra:\n'))
 
-    print('Ingrese la segunda palabra:')
-    texto_2 = str(input())
+    texto_2 = str(input('Ingrese la segunda palabra:\n'))
 
     # Compare cual de las dos palabras es mayor (alfabéticamente)
     # Imprima en pantalla según corresponda
