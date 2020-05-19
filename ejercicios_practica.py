@@ -79,7 +79,7 @@ def ej5():
     De las temperaturas ingresadas por consola determinar:
     1 - ¿Cuáles de ellas es la máxima temperatura ingresada?
     2 - ¿Cuáles de ellas es la mínima temperatura ingresada?
-    3 - ¿Cuáles es el promedio de las temperaturas ingresadas?
+    3 - ¿Cuál es el promedio de las temperaturas ingresadas?
 
     En cada caso imprimir en pantalla el resultado  
 
