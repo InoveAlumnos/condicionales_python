@@ -5,7 +5,7 @@ Ejercicios de práctica
 ---------------------------
 Autor: Inove Coding School
 Version: 1.1
- 
+
 Descripcion:
 Programa creado para que practiquen los conocimietos adquiridos durante la semana
 '''
@@ -14,6 +14,7 @@ __author__ = "Inove Coding School"
 __email__ = "alumnos@inove.com.ar"
 __version__ = "1.1"
 
+
 def ej1():
     # Ejercicios de práctica con números
 
@@ -21,19 +22,19 @@ def ej1():
     Realice un programa que solicite por consola 2 números
     Calcule la diferencia entre ellos e informe por pantalla
     si el resultado es positivo, negativo o cero.
-        
     '''
 
+
 def ej2():
-# Ejercicios de práctica con números
+  # Ejercicios de práctica con números
 
   '''
     Realice un programa que solicite el ingreso de tres números
     enteros, y luego en cada caso informe si el número es par
     o impar.
     Para cada caso imprimir el resultado en pantalla.
-    
   '''
+
 
 def ej3():
     # Ejercicios de práctica con números
@@ -50,13 +51,12 @@ def ej3():
 
     Se debe efectuar el cálculo correcto según la operación ingresada por consola
     Imprimir en pantalla la operación realizada y el resultado
-    
-
     '''
+
 
 def ej4():
     # Ejercicios de práctica con cadenas
-    
+
     '''
     Realice un programa que solicite por consola 3 palabras cualesquiera
     Luego el programa debe consultar al usuario como quiere ordenar las palabras
@@ -68,12 +68,12 @@ def ej4():
 
     Si se ingresa "2" por consola se deben ordenar las 3 palabras por cantidad de letras
     e imprimir en pantalla de la mayor a la menor
-
   '''
+
 
 def ej5():
     # Ejercicios de práctica con números
-       
+
     '''
     Realice un programa que solicite ingresar tres valores de temperatura
     De las temperaturas ingresadas por consola determinar:
@@ -81,8 +81,7 @@ def ej5():
     2 - ¿Cuáles de ellas es la mínima temperatura ingresada?
     3 - ¿Cuál es el promedio de las temperaturas ingresadas?
 
-    En cada caso imprimir en pantalla el resultado  
-
+    En cada caso imprimir en pantalla el resultado
     '''
 
 if __name__ == '__main__':
