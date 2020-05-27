@@ -5,31 +5,32 @@ Ejercicios de clase
 ---------------------------
 Autor: Inove Coding School
 Version: 1.1
- 
+
 Descripcion:
-Programa creado para poner a prueba los conocimientos adquiridos durante la clase
+Programa creado para poner a prueba los conocimientos
+adquiridos durante la clase
 '''
 
 __author__ = "Inove Coding School"
 __email__ = "alumnos@inove.com.ar"
 __version__ = "1.1"
 
+
 def ej1():
     # Ejercicios de práctica numérica
-    
+
     # Comparadores
     # Ingrese dos números cualesquiera y realice las sigueintes
     # comparaciones entre ellos
     numero_1 = int(input('Ingrese el primer número:\n'))
 
     numero_2 = int(input('Ingrese el segundo número:\n'))
-    
+
     # Compare cual de los dos números es mayor
     # Imprima en pantalla según corresponda
 
     # Verifique si el numero_1 positivo, negativo o cero
     # Imprima el resultado en cada caso
-
 
     # Verifique si el numero_1 es mayor a 0 y menor a 100
     # Imprima en pantalla si se cumple o no la condición
@@ -37,6 +38,7 @@ def ej1():
     # Verifique si el numero_1 es menor a 10 o el numero_2
     # es mayor a -2
     # Imprima en pantalla si se cumple o no la condición
+
 
 def ej2():
     # Ejemplos variables de texto
@@ -67,6 +69,7 @@ def ej2():
     # Verifique que copia_texto_1 es distinta a texto_2
     # Imprima en pantalla según corresponda
 
+
 def ej3():
     # Ejercicios de práctica numérica
 
@@ -79,7 +82,7 @@ def ej3():
     #       es positivo
     #       --> En caso afirmativo imprima en pantalla "Resp=1"
     #       --> En caso negativo imprima en pantalla   "Resp=2"
-    #  --> En caso negativo (numero_1 no es mayor a 5) 
+    #  --> En caso negativo (numero_1 no es mayor a 5)
     #      verifique si el numero_2 es mayor a 5
     #       --> En caso afirmativo imprima en pantalla "Resp=3"
     #       --> En caso negativo imprima en pantalla "Resp=4"
@@ -96,7 +99,6 @@ def ej3():
 
     # Debe imprimir en pantalla la calificacion
     # Utilizar "if" anidados
-
 
 
 def ej4():
@@ -128,4 +130,3 @@ if __name__ == '__main__':
     #ej2()
     #ej3()
     #ej4()
-
