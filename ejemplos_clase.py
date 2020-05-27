@@ -5,7 +5,7 @@ Ejemplos de clase
 ---------------------------
 Autor: Inove Coding School
 Version: 1.1
- 
+
 Descripcion:
 Programa creado para mostrar ejemplos prácticos de los visto durante la clase
 '''
@@ -14,11 +14,12 @@ __author__ = "Inove Coding School"
 __email__ = "alumnos@inove.com.ar"
 __version__ = "1.1"
 
+
 def numbers():
     # Ejemplos varialbles numéricas
     x = 5
     y = 2
-    
+
     # Verificar si "x" es par
     if (x % 2) == 0:
         print('"x" es par')
@@ -27,9 +28,9 @@ def numbers():
 
     # Verificar si "x" es mayor a "y"
     if x > y:
-        print('"x =',x,'" es mayor a "y =',y,'"')
+        print('"x =', x, '" es mayor a "y =', y, '"')
     else:
-        print('"y =',y,'" es mayor a "x =',x,'"')
+        print('"y =', y, '" es mayor a "x =', x, '"')
 
     # Realizar la misma operación negando la condición
     if not(x > y):
@@ -67,7 +68,6 @@ def numbers():
                                                        numero_2,
                                                        producto))
 
-
     # Calcular la suma de dos números si almenos uno de ellos
     # es mayor o igual a cero
     numero_3 = -20
@@ -75,6 +75,7 @@ def numbers():
     if (numero_1 >= 0) or (numero_3 >= 0):
         suma = numero_1 + numero_3
         print('La suma entre {} y {} es {}'.format(numero_1, numero_3, suma))
+
 
 def strings():
     # Ejemplos varialbles de texto
@@ -110,4 +111,3 @@ if __name__ == '__main__':
     print("Bienvenidos a otra clase de Inove con Python")
     numbers()
     strings()
-
