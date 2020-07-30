@@ -4,7 +4,7 @@ Condicionales [Python]
 Ejercicios de práctica
 ---------------------------
 Autor: Inove Coding School
-Version: 1.1
+Version: 1.2
 
 Descripcion:
 Programa creado para que practiquen los conocimietos adquiridos durante la semana
@@ -12,11 +12,11 @@ Programa creado para que practiquen los conocimietos adquiridos durante la seman
 
 __author__ = "Inove Coding School"
 __email__ = "alumnos@inove.com.ar"
-__version__ = "1.1"
+__version__ = "1.2"
 
 
 def ej1():
-    # Ejercicios de práctica con números
+    print('Ejercicios de práctica con números')
 
     '''
     Realice un programa que solicite por consola 2 números
@@ -26,7 +26,7 @@ def ej1():
 
 
 def ej2():
-  # Ejercicios de práctica con números
+    print('Ejercicios de práctica con números')
 
   '''
     Realice un programa que solicite el ingreso de tres números
@@ -37,7 +37,7 @@ def ej2():
 
 
 def ej3():
-    # Ejercicios de práctica con números
+    print('Ejercicios de práctica con números')
 
     '''
     Realice una calculadora, se ingresará por línea de comando dos números
@@ -55,7 +55,7 @@ def ej3():
 
 
 def ej4():
-    # Ejercicios de práctica con cadenas
+    print('Ejercicios de práctica con cadenas')
 
     '''
     Realice un programa que solicite por consola 3 palabras cualesquiera
@@ -72,7 +72,7 @@ def ej4():
 
 
 def ej5():
-    # Ejercicios de práctica con números
+    print('Ejercicios de práctica con números')
 
     '''
     Realice un programa que solicite ingresar tres valores de temperatura
