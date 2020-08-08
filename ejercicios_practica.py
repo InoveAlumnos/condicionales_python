@@ -4,7 +4,7 @@ Condicionales [Python]
 Ejercicios de práctica
 ---------------------------
 Autor: Inove Coding School
-Version: 1.2
+Version: 1.3
 
 Descripcion:
 Programa creado para que practiquen los conocimietos adquiridos durante la semana
@@ -12,7 +12,7 @@ Programa creado para que practiquen los conocimietos adquiridos durante la seman
 
 __author__ = "Inove Coding School"
 __email__ = "alumnos@inove.com.ar"
-__version__ = "1.2"
+__version__ = "1.3"
 
 
 def ej1():
@@ -28,12 +28,12 @@ def ej1():
 def ej2():
     print('Ejercicios de práctica con números')
 
-  '''
+    '''
     Realice un programa que solicite el ingreso de tres números
     enteros, y luego en cada caso informe si el número es par
     o impar.
     Para cada caso imprimir el resultado en pantalla.
-  '''
+    '''
 
 
 def ej3():
@@ -68,7 +68,7 @@ def ej4():
 
     Si se ingresa "2" por consola se deben ordenar las 3 palabras por cantidad de letras
     e imprimir en pantalla de la mayor a la menor
-  '''
+    '''
 
 
 def ej5():
