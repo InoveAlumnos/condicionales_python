@@ -4,7 +4,7 @@ Condicionales [Python]
 Ejemplos de clase
 ---------------------------
 Autor: Inove Coding School
-Version: 1.1
+Version: 1.2
 
 Descripcion:
 Programa creado para mostrar ejemplos prácticos de los visto durante la clase
@@ -12,7 +12,7 @@ Programa creado para mostrar ejemplos prácticos de los visto durante la clase
 
 __author__ = "Inove Coding School"
 __email__ = "alumnos@inove.com.ar"
-__version__ = "1.1"
+__version__ = "1.2"
 
 
 def numbers():
@@ -22,29 +22,29 @@ def numbers():
 
     # Verificar si "x" es par
     if (x % 2) == 0:
-        print('"x" es par')
+        print('x es par')
     else:
-        print('"x" es impar')
+        print('x es impar')
 
     # Verificar si "x" es mayor a "y"
     if x > y:
-        print('"x =', x, '" es mayor a "y =', y, '"')
+        print('x =', x, 'es mayor a y =', y)
     else:
-        print('"y =', y, '" es mayor a "x =', x, '"')
+        print('y =', y, 'es mayor a x =', x)
 
     # Realizar la misma operación negando la condición
     if not(x > y):
-        print('"x={}" no es mayor a "y={}"'.format(x, y))  # Debo también negar la respuesta
+        print('x={} no es mayor a y={}'.format(x, y))  # Debo también negar la respuesta
     else:
-        print('"y={}" no es mayor a "x={}"'.format(y, x))  # Debo también negar la respuesta
+        print('y={} no es mayor a x={}'.format(y, x))  # Debo también negar la respuesta
 
     # Verificar si "y" es nu número positivo
     if y > 0:
-        print('"y" es positivo')
+        print('y es positivo')
     elif y < 0:
-        print('"y" es negativo')
+        print('y es negativo')
     else:
-        print('"y" es 0')
+        print('y es 0')
 
     # Operadores de comparación
     copia_x = x
@@ -97,7 +97,7 @@ def strings():
         print('{} es mayor que {}'.format(texto_2, texto_1))
 
     if texto_1 == 'ab':
-        print("texto_1({}) es igual a ab".format(texto_1))
+        print('texto_1({}) es igual a ab'.format(texto_1))
 
     # Condicionales compuestos
     # Si texto_1 es mayor a texto_2 e igual a "hola" o
@@ -108,6 +108,6 @@ def strings():
        print('Correcto!')
 
 if __name__ == '__main__':
-    print("Bienvenidos a otra clase de Inove con Python")
+    print('Bienvenidos a otra clase de Inove con Python')
     numbers()
     strings()
