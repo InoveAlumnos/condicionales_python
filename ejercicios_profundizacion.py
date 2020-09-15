@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 '''
 Condicionales [Python]
-Ejercicios de práctica
+Ejercicios de profundización
 ---------------------------
 Autor: Inove Coding School
 Version: 1.3
