@@ -42,3 +42,5 @@ if x == copia_x:
 
 if y != copia_x:
     print('y es distinto a copia_x')
+
+print("terminamos!")

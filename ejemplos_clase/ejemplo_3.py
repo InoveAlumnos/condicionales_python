@@ -32,3 +32,5 @@ if texto_1 == 'ab':
 if (((texto_1 > texto_2) and texto_1 == 'hola') or
     (len(texto_1) < 4)):
     print('Correcto!')
+
+print("terminamos!")
