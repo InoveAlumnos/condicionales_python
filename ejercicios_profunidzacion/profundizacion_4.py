@@ -12,7 +12,7 @@
 
 # IMPORTANTE: NO borrar los comentarios en VERDE o NARANJA
 
-# Ejercicios de práctica con números
+# Ejercicios de práctica con texto
 '''
 Enunciado:
 Realice un programa que solicite por consola 3 palabras cualesquiera
