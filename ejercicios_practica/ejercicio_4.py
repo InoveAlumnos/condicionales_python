@@ -12,12 +12,16 @@
 texto_1 = '5'
 texto_2 = '7'
 
-# Verifique cual cual de los dos textos es mayor alfabéticamente
+# 1-Verifique cual de los dos textos es mayor alfabéticamente
+# La comparación alfabética es aquella que se logra cuando
+# se utiliza el operador mayor o menor con Strings (textos)
 # Imprima en pantalla según corresponda
 
-# Transforma esas variables tipo texto y almacénalas
-# en nuevas variables númericas (int)
-# Repita el proceso, ¿Cuál de las nuevas variables es mayor?
+# 2-Transforma esas variables tipo texto en variables numéricas con (int)
+# y almacénalas en nuevas variables.
+# Compare las nuevas variables para ver cual es mayor o menor
+# utilizando los operadores correspondientes
+# ¿Cuál de las nuevas variables es mayor?
 # Imprima en pantalla según corresponda
 
 # Para pensar!
