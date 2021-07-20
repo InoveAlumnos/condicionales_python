@@ -51,8 +51,6 @@ if numero_1 >= 0 or numero_3 >= 0:
 # y ambos menores a 100
 if (numero_1 > 0 and numero_2 > 0) and (numero_1 < 100 and numero_2 < 100):
     producto = numero_1 * numero_2
-    print('El producto entre {} y {} es {}'.format(numero_1,
-                                                    numero_2,
-                                                    producto))
+    print('El producto entre {} y {} es {}'.format(numero_1, numero_2, producto))
 
 print("terminamos!")
