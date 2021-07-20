@@ -4,7 +4,7 @@
 # Autor: Inove Coding School
 # Version: 2.0
 
-# Ejemplos varialbles de texto
+# Ejemplos varialbles de texto y condicionales compuestos
 texto_1 = 'a'
 texto_2 = 'b'
 
