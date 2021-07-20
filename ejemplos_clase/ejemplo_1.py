@@ -4,7 +4,7 @@
 # Autor: Inove Coding School
 # Version: 2.0
 
-# Ejemplos varialbles numéricas
+# Ejemplos de condicionales
 x = 5
 y = 2
 
