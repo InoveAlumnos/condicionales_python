@@ -2,7 +2,7 @@
 # Ejercicios de práctica
 
 # Autor: Inove Coding School
-# Version: 2.0
+# Version: 3.0
 
 # IMPORTANTE: NO borrar los comentarios
 # que aparecen en verde con el hashtag "#"
@@ -10,27 +10,44 @@
 # Ejemplos variables de texto
 
 # Comparadores
-# Ingrese dos palabras cualesquiera y realice las sigueintes
-# comparaciones entre ellas
+# Objetivo:
+# Ingrese dos palabras cualesquiera
+# y realice las sigueintes comparaciones entre ellas
 texto_1 = str(input('Ingrese la primera palabra:\n'))
 
 texto_2 = str(input('Ingrese la segunda palabra:\n'))
 
-# Compare cual de las dos palabras es mayor (alfabéticamente)
-# Imprima en pantalla según corresponda
+# Alumno
+# En cada desafio se le indicará que dada cierta condición
+# modifique el valor de una variable o la cree con ese valor
+
+# Compare las dos palabras y entre sí 
+# utilizando if y else.
+# - Si texto_1 es mayor (alfabéticamente) a texto_2, 
+#   almacenar 1 en res_1
+# - De lo contrario, almacenar 2 en res_1
+
+
+# Imprimir en pantalla la variable res_1
 
 # Compare cual de las dos palabras tiene mayor
 # cantidad de letras
-# Imprima en pantalla según corresponda
+# Utilice if, elif y else
+# - Si texto_1 tiene más letras, almacenar 1 en res_2
+# - Si texto_2 tiene más letras, almacenar 2 en res_2
+# - Si tienen la misma cantidad de letras, almacenar 3 en res_2
+
+
+# Imprimir en pantalla la variable res_2
+
+
 
 # Verifique si la primera letra de la primera palabra
 # es mayor a la primera letra de la segunda palabra
-# Imprima en pantalla según corresponda
+# - Si la primera letra de texto_1 es mayor,
+#   almacenar 1 en res_3
+# - De lo contrario, almacenar 2 en res_3
 
-copia_texto_1 = texto_1  # Copia de la variable texto_1
 
-# Verifique que copia_texto_1 es igual a texto_1
-# Imprima en pantalla según corresponda
+# Imprimir en pantalla la variable res_3
 
-# Verifique que copia_texto_1 es distinta a texto_2
-# Imprima en pantalla según corresponda
