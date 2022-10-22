@@ -13,7 +13,8 @@ puntaje = 0
 
 # Prigunta Nº1
 print("Pregunta Nº1")
-respuesta = int(input("¿Cuánto es 5x2?"))
+# \n es para "salto de línea (como si fuera un enter)"
+respuesta = int(input("¿Cuánto es 5x2?\n"))
 
 if respuesta == 10:
     # Si la respuesta es correcta
@@ -27,7 +28,7 @@ else:
 
 # Prigunta Nº2
 print("Pregunta Nº2")
-respuesta = int(input("¿Cuántas letras tiene la palabra python?"))
+respuesta = int(input("¿Cuántas letras tiene la palabra python?\n"))
 
 if respuesta == 5:
     # Si la respuesta es correcta
@@ -42,7 +43,7 @@ else:
 
 # Prigunta Nº3 --> BONUS
 print("Pregunta Nº3")
-respuesta = str(input("¿Cuál es la capital de Irlanda?"))
+respuesta = str(input("¿Cuál es la capital de Irlanda?\n"))
 
 # Transformar a el dato ingresado a minúsculas
 # para evitar problemas como
