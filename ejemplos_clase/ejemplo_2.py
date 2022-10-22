@@ -2,7 +2,7 @@
 # Ejemplos de clase
 
 # Autor: Inove Coding School
-# Version: 2.0
+# Version: 3.0
 
 # Ejemplos con if anidados (elif) y compuestos
 
@@ -30,27 +30,29 @@ numero_1 = 10
 numero_2 = 30
 numero_3 = -20
 
-# Calcular el producto entre dos números enteros que ambos sean positivos
+# Calcular el producto entre dos números enteros
+# si ambos son positivos (mayores a cero)
 if numero_1 > 0 and numero_2 > 0:
     producto = numero_1 * numero_2
-    print('El producto entre {} y {} es {}'.format(numero_1, numero_2, producto))
+    print(f'El producto entre {numero_1} y {numero_2} es {producto}')
 
 
-# Calcular el producto entre dos números enteros si al menos uno de los dos es positivo
+# Calcular el producto entre dos números enteros
+# si al menos uno de los dos es positivo (mayor a cero)
 if numero_1 > 0 or numero_2 > 0:
     producto = numero_1 * numero_2
-    print('El producto entre {} y {} es {}'.format(numero_1, numero_2, producto))
+    print(f'El producto entre {numero_1} y {numero_2} es {producto}')
 
 # Calcular la suma de dos números si almenos uno de ellos
 # es mayor o igual a cero
 if numero_1 >= 0 or numero_3 >= 0:
     suma = numero_1 + numero_3
-    print('La suma entre {} y {} es {}'.format(numero_1, numero_3, suma))
+    print(f'La suma entre {numero_1} y {numero_2} es {producto}')
 
 # Calcular el producto entre dos números enteros que ambos sean positivos
 # y ambos menores a 100
 if (numero_1 > 0 and numero_2 > 0) and (numero_1 < 100 and numero_2 < 100):
     producto = numero_1 * numero_2
-    print('El producto entre {} y {} es {}'.format(numero_1, numero_2, producto))
+    print(f'El producto entre {numero_1} y {numero_2} es {producto}')
 
 print("terminamos!")

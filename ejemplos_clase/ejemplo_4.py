@@ -2,18 +2,62 @@
 # Ejemplos de clase
 
 # Autor: Inove Coding School
-# Version: 2.0
+# Version: 3.0
 
-# Ejemplos varialbles de texto y condicionales compuestos
-texto_1 = 'a'
-texto_2 = 'b'
+# Ejemplos condicionales y operador incrementar
 
-# Condicionales compuestos
-# Si texto_1 es mayor a texto_2 e igual a "hola" o
-# texto_1 tiene menos de 4 letras, entonces imprimir "Correcto!"
+# Primero debo inicializar la variable
+# que utilizaremsos para guardar el puntaje
+# y aumentar con cada respuesta correcta
+puntaje = 0
 
-if (((texto_1 > texto_2) and texto_1 == 'hola') or
-    (len(texto_1) < 4)):
-    print('Correcto!')
+# Prigunta Nº1
+print("Pregunta Nº1")
+respuesta = int(input("¿Cuánto es 5x2?"))
 
-print("terminamos!")
+if respuesta == 10:
+    # Si la respuesta es correcta
+    # aumentar puntaje
+    print("¡Muy bien!")
+    puntaje += 1
+else:
+    # Respuesta incorrecta
+    print("¡Respuesta incorrecta!")
+
+
+# Prigunta Nº2
+print("Pregunta Nº2")
+respuesta = int(input("¿Cuántas letras tiene la palabra python?"))
+
+if respuesta == 5:
+    # Si la respuesta es correcta
+    # aumentar puntaje
+    print("¡Muy bien!")
+    puntaje += 1
+else:
+    # Respuesta incorrecta
+    print("¡Respuesta incorrecta!")
+
+
+
+# Prigunta Nº3 --> BONUS
+print("Pregunta Nº3")
+respuesta = str(input("¿Cuál es la capital de Irlanda?"))
+
+# Transformar a el dato ingresado a minúsculas
+# para evitar problemas como
+# Dublin / dublin / DUBLIN
+# y todo sea considerado igual
+respuesta = respuesta.lower()
+
+if respuesta == "dublin":
+    # Si la respuesta es correcta
+    # aumentar puntaje
+    print("¡Muy bien!")
+    puntaje += 3
+else:
+    # Respuesta incorrecta
+    print("¡Respuesta incorrecta!")
+
+
+print(f"Su puntaje final es: {puntaje}")
