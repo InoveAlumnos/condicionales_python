@@ -2,7 +2,7 @@
 # Ejercicios de profundización
 
 # Autor: Inove Coding School
-# Version: 2.0
+# Version: 3.0
 
 # NOTA: 
 # Estos ejercicios son de mayor dificultad que los de clase y práctica.
@@ -12,24 +12,40 @@
 
 # IMPORTANTE: NO borrar los comentarios en VERDE o NARANJA
 
-# Ejercicios de práctica con texto
+# Ejercicios de práctica con números
 '''
-Enunciado:
-Realice un programa que solicite por consola 3 palabras cualesquiera
-Luego el programa debe consultar al usuario como quiere ordenar las palabras
-1 - Ordenar por orden alfabético (usando el operador ">")
-2 - Ordenar por cantidad de letras (longitud de la palabra (len) y operador ">")
+Objetizo:
+Realizar un programa que solicite ingresar
+tres valores decimales de temperatura
+De las temperaturas ingresadas se determinará:
+1 - ¿Cuál es suma de todas las temperaturas ingresadas?
+2 - ¿Cuál es el promedio de las temperaturas ingresadas?
 
-Si se ingresa "1" por consola se deben ordenar las 3 palabras por orden alfabético
-e imprimir en pantalla de la mayor a la menor
-
-Si se ingresa "2" por consola se deben ordenar las 3 palabras por cantidad de letras
-e imprimir en pantalla de la mayor a la menor
-
-IMPORTANTE: Para ordenar las palabras deben realizar condicionales compuestos o anidados,
+IMPORTANTE: Para ordenar las temperatuas debe utilizar condicionales compuestos o anidados,
 no se busca utilizar bucles o algoritmos de ordenamiento ya que aún no hemos llegado a ese
-contenido.
+contenido. Recomendamos pensar bien este problema de lógica con un lápiz y papel.
+
+Alumno:
+- Deberá solicitar tres números decimales por consola,
+cada nuḿero de temperatura lo debe almacenar
+en variables llamadas:
+-> temperatura_1
+-> temperatura_2
+-> temperatura_3
+
+Utilizando el operador suma o el operador incremento
+deberá almacenar la suma de todas las temperaturas
+ingresadas en una nueva variable llamada "temperatura_total"
+
+Luego, mediante el uso de la variable "temperatura_total"
+y teniendo en cuenta que se ingresaron tres temperaturas.
+Deberá calcular el promedio de todas las temperaturas
+y almacenar el resultado en una variable llamada
+"temperatura_promedio"
+
+- Al final imprimir en pantalla la variable 
+  temperatura_promedio
 '''
 
-print('Ejercicios de práctica con cadenas')
+print('Ejercicios de práctica con números')
 # Empezar aquí la resolución del ejercicio

@@ -2,7 +2,7 @@
 # Ejercicios de profundización
 
 # Autor: Inove Coding School
-# Version: 2.0
+# Version: 3.0
 
 # NOTA: 
 # Estos ejercicios son de mayor dificultad que los de clase y práctica.
@@ -15,9 +15,28 @@
 # Ejercicios de práctica con números
 '''
 Enunciado:
-Realice un programa que solicite por consola 2 números
-Calcule la diferencia entre ellos e informe por pantalla
-si el resultado es positivo, negativo o cero.
+- Realizar un programa que solicite por consola 2 números
+- Calcule la diferencia entre ellos
+- Informe si el resultado es positivo, negativo o cero.
+
+Alumno:
+- Crear una una variable llamada numero_1
+  para almacenar el primer número entero que usted
+  debe ingresar por consola con la función input
+
+- Crear una una variable llamada numero_2
+  para almacenar el primer número entero que usted
+  debe ingresar por consola con la función input
+
+- Calcular la diferencia entre ambos números
+  y almacenar el resultado en una variable
+
+- Utilizando if elif y else compare el resutaldo
+-> Si el resultado es positivo, almacenar 1 en res_1
+-> Si el resultado es negativo, almacenar 2 en res_1
+-> Si el resultado es cero, almacenar 3 en res_1
+
+- Al final imprimir en pantalla la variable res_1
 '''
 
 print('Ejercicios de práctica con números')
