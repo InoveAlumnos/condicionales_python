@@ -20,7 +20,6 @@ tres valores decimales de temperatura
 De las temperaturas ingresadas se determinará:
 1 - ¿Cuáles de ellas es la máxima temperatura ingresada?
 2 - ¿Cuáles de ellas es la mínima temperatura ingresada?
-3 - ¿Cuál es el promedio de las temperaturas ingresadas?
 
 IMPORTANTE: Para ordenar las temperatuas debe utilizar condicionales compuestos o anidados,
 no se busca utilizar bucles o algoritmos de ordenamiento ya que aún no hemos llegado a ese
