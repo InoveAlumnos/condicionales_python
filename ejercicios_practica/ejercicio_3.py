@@ -15,7 +15,7 @@
 # Objetico
 # Verificar la calificación de un estudiante según su
 # puntaje en un examen
-puntaje = 70
+puntaje = int(input("Ingrese un valor entre 0 y 100:\n"))
 
 # Alumno:
 # Deberá crear una serie de considiconales
@@ -26,10 +26,10 @@ puntaje = 70
 nota = ""
 
 # Si el puntaje es mayor igual a 90 --> nota = "A"
-# Si el puntaje es mayor igual a 80 --> nota = "B"
-# Si el puntaje es mayor igual a 70 --> nota = "C"
-# Si el puntaje es mayor igual a 60 --> nota = "D"
-# Si el puntaje es menor a  60      --> nota = "F"
+# Sino, si el puntaje es mayor igual a 80 --> nota = "B"
+# Sino, si el puntaje es mayor igual a 70 --> nota = "C"
+# Sino, si el puntaje es mayor igual a 60 --> nota = "D"
+# Sino, si el puntaje es menor a  60      --> nota = "F"
 
 # Recuerde utilizar un solo bloque condicional
 # armado de if y múltiples elif
